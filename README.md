@@ -45,12 +45,13 @@
 - Select POST method
 - Click on Headers : (KEY : Content-Type and VALUE : application/json)
 - Click on Body and select raw(use below given json value):
-  {
-  "sqft":1500,
-  "place":2,
-  "yearsOld":5,
-  "totalFloor":10,
-  "bhk":3 }
+
+{
+"sqft":1500,
+"place":2,
+"yearsOld":5,
+"totalFloor":10,
+"bhk":3 }
 
 - Click on send
 - Input format:
