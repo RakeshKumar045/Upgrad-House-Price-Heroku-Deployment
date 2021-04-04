@@ -23,9 +23,9 @@
 
 ## Check Demo:
 
-<https://upgrad-house-deployment-heroku.herokuapp.com/>
-
 ### Click given URL:
+
+<https://upgrad-house-deployment-heroku.herokuapp.com/>
 
 ![Image input](./output_photo/browser_output.png "epidemiological model")
 
