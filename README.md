@@ -70,7 +70,7 @@
 
 https://github.com/RakeshKumar045?tab=repositories
 
-![Image github](../github_follow_pic/github.png "epidemiological model")
+![Image github](./github_follow_pic/github.png "epidemiological model")
 
 #### 2nd way deploy application on heroku using Heroku CLI:
 
