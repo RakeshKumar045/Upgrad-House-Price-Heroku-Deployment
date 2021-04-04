@@ -1,4 +1,4 @@
-## Machine Learning : Salary Prediction Deployment using Heroku & Docker
+## Upgrad : House Price Prediction Deployment using Heroku & Docker
 
 ## Follow Me:
 
@@ -23,15 +23,43 @@
 
 ## Check Demo:
 
-<https://salary-ml-predict-heroku.herokuapp.com/>
+<https://upgrad-house-deployment-heroku.herokuapp.com/>
 
-### Input :
+### Click given URL:
 
-![Image input](./output_photo/input.png "epidemiological model")
+![Image input](./output_photo/browser_output.png "epidemiological model")
 
-### Output :
+### Check the API by Postman :
 
-![Image output](./output_photo/output.png "epidemiological model")
+#### 1) GET Method
+
+- Use given URL in Postman : https://upgrad-house-deployment-heroku.herokuapp.com
+- Select GET method
+- Click on send
+
+![Image output](./output_photo/output_by_get.png "epidemiological model")
+
+#### 2) POST Method
+
+- Use given URL in Postman : https://upgrad-house-deployment-heroku.herokuapp.com/house_pred
+- Select POST method
+- Click on Headers : (KEY : Content-Type and VALUE : application/json)
+- Click on Body and select raw(use below given json value):
+  {
+  "sqft":1500,
+  "place":2,
+  "yearsOld":5,
+  "totalFloor":10,
+  "bhk":3 }
+
+- Click on send
+- Input format:
+  ![Image output](./output_photo/input_1.png "epidemiological model")
+
+![Image output](./output_photo/input_2.png "epidemiological model")
+
+-Output:
+![Image output](./output_photo/output_by_post.png "epidemiological model")
 
 ## Please Star me on GitHub
 
